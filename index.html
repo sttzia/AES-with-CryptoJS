@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AES Cryptography (CryptoJS)</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>AES Encryption/Decryption using CryptoJs</h1>
+    <label>Message:</label>
+    <textarea name="" id="myMessage" cols="30" rows="10"></textarea><br /><br />
+    <label>Password:</label>
+    <input type="password" id="myPassword" /><br /><br />
+
+    <button id="btn_encrypt">Encrypt</button><br />
+    <label>Encrypted Text:</label>
+    <textarea name="" id="myEncryptedText" cols="30" rows="10"></textarea><br />
+
+    <hr />
+    <button id="btn_decrypt">Decrypt</button><br />
+    <label>Original Text:</label>
+    <textarea name="" id="myDecryptedText" cols="30" rows="10"></textarea>
+    <hr />
+
+    <script src="./crypto-js.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

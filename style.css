@@ -1,0 +1,16 @@
+body {
+  background: linear-gradient(90deg, azure, gray);
+}
+label {
+  font-family: monospace;
+  font-size: 20px;
+  background-color: bisque;
+}
+#btn_encrypt {
+  font-size: 20px;
+  background-color: chartreuse;
+}
+#btn_decrypt {
+  font-size: 20px;
+  background-color: coral;
+}
